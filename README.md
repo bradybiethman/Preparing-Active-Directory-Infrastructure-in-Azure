@@ -113,3 +113,27 @@ We ensure Validation and then click Create at the bottom.
 We then navigate to Virtual Machines along the left side panel.
 </p>
 <br />
+
+<p>
+<img <img width="1772" height="900" alt="image" src="https://github.com/user-attachments/assets/a229893f-364b-4d12-82fb-694f05ae5b3c" />
+</p>
+<p>
+We click Create to make our Virtual Machine.
+</p>
+<br />
+
+<p>
+<img <img width="789" height="633" alt="image" src="https://github.com/user-attachments/assets/3216bf5c-7423-4f21-b977-13a62efaa616" />
+</p>
+<p>
+We select the Resource group that we have created prior (Active-Directory) and name the Virtual Machine dc-1.
+</p>
+<br />
+
+<p>
+<img <img width="789" height="633" alt="image" src="https://github.com/user-attachments/assets/3216bf5c-7423-4f21-b977-13a62efaa616" />
+</p>
+<p>
+We select the Resource group that we have created prior (Active-Directory) and name the Virtual Machine dc-1.
+</p>
+<br />
