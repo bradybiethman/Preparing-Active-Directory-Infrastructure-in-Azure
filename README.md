@@ -155,9 +155,18 @@ Create our Username and Password that will be used to log into the virtual machi
 <br />
 
 <p>
-<img <img width="762" height="1152" alt="image" src="https://github.com/user-attachments/assets/1cfe38ce-2646-435b-ad50-0f14529d9160" />
+<img <img width="1372" height="1213" alt="image" src="https://github.com/user-attachments/assets/1ea87c69-e6ed-44b1-acb3-724293d6dc5d" />
 </p>
 <p>
 Click Create at the bottom once information is validated.
 </p>
 <br />
+
+<p>
+<img <img width="1146" height="749" alt="image" src="https://github.com/user-attachments/assets/f8dae39c-8dbf-4508-9776-38d5a40440f1" />
+</p>
+<p>
+Select Active-Directory Resource group and name the Virtual machine client-1
+</p>
+<br />
+
