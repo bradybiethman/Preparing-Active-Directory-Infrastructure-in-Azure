@@ -170,3 +170,18 @@ Select Active-Directory Resource group and name the Virtual machine client-1
 </p>
 <br />
 
+<p>
+<img <img width="918" height="695" alt="image" src="https://github.com/user-attachments/assets/34adc3de-2fc1-4322-be25-0d1e313b435e" />
+</p>
+<p>
+Select Windows 10 Enterprise, version 22H2 - x64 Gen2 for the Image and Standard_D2lds_v7 - 2 vcpus, 4 GiB memory ($101.47) for Size.
+</p>
+<br />
+
+<p>
+<img <img width="818" height="657" alt="image" src="https://github.com/user-attachments/assets/24e735d9-c058-4792-bd5a-5c56fa3bcaa2" />
+</p>
+<p>
+Create username and password and check off box under Licensing before clicking Next to navigate to Networks.
+</p>
+<br />
