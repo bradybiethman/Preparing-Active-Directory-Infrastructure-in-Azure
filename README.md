@@ -31,22 +31,35 @@ This tutorial outlines the implementation of on-premises Active Directory within
 />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+First we will navigate to the Microsoft Azure website and get signed in to our account.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img <img width="2559" height="1439" alt="image" src="https://github.com/user-attachments/assets/ab9879a5-be48-416f-9901-494617a4ba16" />
+"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+We will navigate to the Resource groups tab on the left side of the screen
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img <img width="1713" height="1230" alt="image" src="https://github.com/user-attachments/assets/6cd2330a-92e9-4aab-808e-c64a90f3f575" />
+/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+We will click Create on the top left.
 </p>
 <br />
+
+<p>
+<img <img width="1015" height="1227" alt="image" src="https://github.com/user-attachments/assets/3602c27b-f7c2-4fd0-8b0f-8aaf2e087161" />
+ />
+/>
+</p>
+<p>
+We name our resource group Active-Directory and ensure that it is listed under the proper Subscription and in the proper Region (in this case (US) East 2) before clicking on Review + create at the bottom.
+</p>
+<br />
+
