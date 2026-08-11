@@ -63,3 +63,95 @@ We name our resource group Active-Directory and ensure that it is listed under t
 </p>
 <br />
 
+<p>
+<img <img width="776" height="1228" alt="image" src="https://github.com/user-attachments/assets/cd732a13-a899-4e2d-881a-dbee0ec448f4" />
+ />
+ />
+/>
+</p>
+<p>
+We review the information for accuracy before clicking Create at the bottom.
+</p>
+<br />
+
+<p>
+<img <img width="2335" height="480" alt="image" src="https://github.com/user-attachments/assets/644d2d15-6dae-4265-a4bd-c29289ef76f8" />
+ />
+ />
+ />
+/>
+</p>
+<p>
+We ensure that the Resource Group has been created in Azure. (This may require you to press refresh to make sure it works.)
+</p>
+<br />
+
+<p>
+<img <img width="2335" height="480" alt="image" src="https://github.com/user-attachments/assets/644d2d15-6dae-4265-a4bd-c29289ef76f8" />
+ />
+ />
+ />
+/>
+</p>
+<p>
+We ensure that the Resource Group has been created in Azure. (This may require you to press refresh to make sure it works.) We then navigate to Virtual networks along the left side panel.
+</p>
+<br />
+
+<p>
+<img <img width="1694" height="848" alt="image" src="https://github.com/user-attachments/assets/3355bfc5-3b69-4be7-870f-eb15e1d2c577" />
+ />
+ />
+ />
+ />
+/>
+</p>
+<p>
+We press Create to begin making the virtual network.
+</p>
+<br />
+
+<p>
+<img <img width="793" height="1227" alt="image" src="https://github.com/user-attachments/assets/0c9589e4-aaad-44d5-8c2e-05717131d2f8" />
+ />
+ />
+ />
+ />
+ />
+/>
+</p>
+<p>
+We then name our virtual network Active-Directory-VNet and review all info for accuracy before clicking on Review + Create at the bottom.
+</p>
+<br />
+
+<p>
+<img <img width="617" height="1226" alt="image" src="https://github.com/user-attachments/assets/bb2e68ca-faac-4a1b-9a28-59a0f6d9d960" />
+ />
+ />
+ />
+ />
+ />
+ />
+/>
+</p>
+<p>
+We ensure Validation and then click Create at the bottom.
+</p>
+<br />
+
+<p>
+<img <img width="1821" height="815" alt="image" src="https://github.com/user-attachments/assets/e3400270-e393-44ed-9306-234585a7e725" />
+ />
+ />
+ />
+ />
+ />
+ />
+ />
+/>
+</p>
+<p>
+We then navigate to Virtual Machines along the left side panel.
+</p>
+<br />
