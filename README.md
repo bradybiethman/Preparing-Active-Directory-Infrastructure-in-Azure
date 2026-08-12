@@ -4,7 +4,7 @@
 </p>
 
 <h1>Preparing Active Directory Infrastructure in the Cloud (Azure)</h1>
-This tutorial outlines the creation of domain controller and client virtual machines and setting up DNS Settings in Microsoft Azure.<br />
+This tutorial outlines the creation of domain controller and client virtual machines and setting up DNS Settings in Microsoft Azure. This will ensure the virtual machines will be able to identify each other on the network.<br />
 
 <h2>Environments and Technologies Used</h2>
 
