@@ -4,7 +4,7 @@
 </p>
 
 <h1>Preparing Active Directory Infrastructure in the Cloud (Azure)</h1>
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
+This tutorial outlines the creation of domain controller and client virtual machines and setting up DNS Settings in Microsoft Azure.<br />
 
 <h2>Environments and Technologies Used</h2>
 
@@ -24,6 +24,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Step 2: Setup Domain Controller Virtual Machine in Azure
 - Step 3: Setup Client-1 Virtual Machine
 - Step 4: Run Commands via Windows Powershell to verify proper data transfer
+- Step 5: Shut down Virtual Machines.
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -422,7 +423,7 @@ In Powershell run command ipconfig /all and ensure that DNS Servers shows dc-1's
 <img <img width="2558" height="820" alt="image" src="https://github.com/user-attachments/assets/a601c854-1382-4cf4-aa51-e3fd4cb62707" />
 </p>
 <p>
-Close out of both Remote Desktop connections and navigate back to Azure virtual machines page.
+Step 5: Close out of both Remote Desktop connections and navigate back to Azure virtual machines page.
 </p>
 <br />
 
