@@ -30,7 +30,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img <img width="2559" height="1439" alt="image" src="https://github.com/user-attachments/assets/00ef7652-34e6-494c-b0b0-fafd8849c9d7" />
 </p>
 <p>
-First we will navigate to the Microsoft Azure website and get signed in to our account.
+Step 1: We will navigate to the Microsoft Azure website and get signed in to our account.
 </p>
 <br />
 
@@ -38,7 +38,7 @@ First we will navigate to the Microsoft Azure website and get signed in to our a
 <img <img width="2559" height="1439" alt="image" src="https://github.com/user-attachments/assets/ab9879a5-be48-416f-9901-494617a4ba16" />
 </p>
 <p>
-Navigate to the Resource groups tab on the left side of the screen
+Step 2: Navigate to the Resource groups tab on the left side of the screen
 </p>
 <br />
 
@@ -182,6 +182,222 @@ Select Windows 10 Enterprise, version 22H2 - x64 Gen2 for the Image and Standard
 <img <img width="818" height="657" alt="image" src="https://github.com/user-attachments/assets/24e735d9-c058-4792-bd5a-5c56fa3bcaa2" />
 </p>
 <p>
-Create username and password and check off box under Licensing before clicking Next to navigate to Networks.
+Create username and password and check off box under Licensing before clicking Review + create at the bottom.
 </p>
 <br />
+
+<p>
+<img <img width="1156" height="1215" alt="image" src="https://github.com/user-attachments/assets/26cdae8b-1e66-403d-b2cc-aacaf4d96b19" />
+</p>
+<p>
+Ensure validation and click Create at the bottom.
+</p>
+<br />
+
+<p>
+<img <img width="1837" height="590" alt="image" src="https://github.com/user-attachments/assets/3dd21cf2-6ec2-4753-bb22-789a7e8fe4e5" />
+</p>
+<p>
+Navigate back to Virtual machines and click on dc-1.
+</p>
+<br />
+
+<p>
+<img <img width="1329" height="477" alt="image" src="https://github.com/user-attachments/assets/95583e24-ebf1-4f3a-bfa9-b16cfaa1c5f1" />
+</p>
+<p>
+Under Networking select Network settings and click on dc-1638_z1 (primary) / ipconfig1 (primary) to access the Ip Settings for dc-1.
+</p>
+<br />
+
+<p>
+<img <img width="2336" height="1228" alt="image" src="https://github.com/user-attachments/assets/54c0842f-c234-4a72-b526-2d7b5afa2919" />
+</p>
+<p>
+Click on ipconfig1 and on the Edit IP Configuration menu select Static bubble under Allocation and then click Save on the bottom right to ensure the IP Address does not change.
+</p>
+<br />
+
+<p>
+<img <img width="2330" height="564" alt="image" src="https://github.com/user-attachments/assets/27dea81f-27fa-445f-bfb6-702072a6fbec" />
+</p>
+<p>
+Navigate back to Virtual machines and copy the Public IP address for dc-1 to use for logging in via Remote Desktop.
+</p>
+<br />
+
+<p>
+<img <img width="388" height="950" alt="image" src="https://github.com/user-attachments/assets/b9156ea0-ee45-4ac2-8098-def933120297" />
+</p>
+<p>
+Click on start menu on the bottom left of the screen and navigate to Remote Desktop to log in to the Virtual Machine.
+</p>
+<br />
+
+<p>
+<img <img width="404" height="240" alt="image" src="https://github.com/user-attachments/assets/46247c0b-5273-4f7d-b970-dba12fa43b26" />
+</p>
+<p>
+Click on Show Options to expand Remote desktop.
+</p>
+<br />
+
+<p>
+<img <img width="405" height="482" alt="image" src="https://github.com/user-attachments/assets/f848cf51-edd9-4cb0-9135-bb08cfbada32" />
+</p>
+<p>
+Enter credentials to log in to dc-1 remotely.
+</p>
+<br />
+
+<p>
+<img <img width="2559" height="1440" alt="image" src="https://github.com/user-attachments/assets/237180a8-cdd3-4ec9-b4c6-18c5fad4d51d" />
+</p>
+<p>
+Once logged in Server Manager will automatically launch.
+</p>
+<br />
+
+<p>
+<img <img width="634" height="339" alt="image" src="https://github.com/user-attachments/assets/a8431a44-8b7a-49e3-9dd8-9137e5d3f7e2" />
+</p>
+<p>
+Right click the start menu, Select Run, and type in wf.msc. Then click OK to open Windows Firewall.
+</p>
+<br />
+
+<p>
+<img <img width="1043" height="782" alt="image" src="https://github.com/user-attachments/assets/ee9acfba-797b-46ee-8039-47e4580523e4" />
+</p>
+<p>
+Select Windows Defender Firewall Properties under the Overview box.
+</p>
+<br />
+
+<p>
+<img <img width="398" height="454" alt="image" src="https://github.com/user-attachments/assets/e313d4a0-e445-4400-91ee-024c7a584daf" />
+</p>
+<p>
+On Domain Profile under Firewall state turn from On to Off. Click Apply on bottom right.
+</p>
+
+<p>
+<img <img width="397" height="451" alt="image" src="https://github.com/user-attachments/assets/99612ecb-ae3f-4e1e-8387-eb8834432d7c" />
+</p>
+<p>
+Click over to Private Profile and under Firewall State turn from ON to Off. Click Apply on bottom right.
+</p>
+<br />
+
+<p>
+<img <img width="400" height="453" alt="image" src="https://github.com/user-attachments/assets/23ecf3aa-d0c7-4935-8c3e-b1487b569b88" />
+</p>
+<p>
+Click over to Public Profile and under Firewall State turn from ON to Off. Click Apply on bottom right.
+</p>
+<br />
+
+<p>
+<img <img width="2334" height="570" alt="image" src="https://github.com/user-attachments/assets/894f1937-eaaa-4c83-939e-8abfd78b53f3" />
+</p>
+<p>
+Minimize dc-1 remote desktop using the bar at the top of the page and navigate back to Azure.
+</p>
+<br />
+
+<p>
+<img <img width="1751" height="746" alt="image" src="https://github.com/user-attachments/assets/bbe45c01-2b9f-4c94-8df2-62696e511443" />
+</p>
+<p>
+Click on dc-1 and copy the Private IP address under Networking.
+</p>
+<br />
+
+<p>
+<img <img width="1753" height="1037" alt="image" src="https://github.com/user-attachments/assets/9267788b-fc47-4eb7-9348-de15f6d573b0" />
+</p>
+<p>
+Click on client-1 and navigate to network settings and click on client-122_z1 (primary) / ipconfig1 (primary) to open its IP Settings.
+</p>
+<br />
+
+<p>
+<img <img width="1420" height="677" alt="image" src="https://github.com/user-attachments/assets/ee7d5150-cbd1-4ac0-93ec-cd6a85bd134c" />
+</p>
+<p>
+Select DNS servers from menu on left.
+</p>
+<br />
+
+<p>
+<img <img width="1166" height="1228" alt="image" src="https://github.com/user-attachments/assets/dcb57705-ce5b-490b-b5f6-7f8dfc9bd080" />
+</p>
+<p>
+Select Custom the bubble and paste in dc-1's private IP Address under Custom DNS Servers. Select Apply at the bottom to save settings.
+</p>
+<br />
+
+<p>
+<img <img width="2557" height="789" alt="image" src="https://github.com/user-attachments/assets/fbb4f244-38f4-4dec-b8b8-1fe59d985075" />
+</p>
+<p>
+Navigate back to virtual machines on the left side menu.
+</p>
+<br />
+
+<p>
+<img <img width="2058" height="303" alt="image" src="https://github.com/user-attachments/assets/3c9d053d-a6ce-473d-8441-66465751401e" />
+</p>
+<p>
+Select the check box next to client-1 and press restart on the bar on top. (This ensures client-1 is using the proper DNS Settings)
+</p>
+<br />
+
+<p>
+<img <img width="2332" height="729" alt="image" src="https://github.com/user-attachments/assets/9f6fc417-e282-4387-9696-b14692d22855" />
+</p>
+<p>
+Click on client-1 and copy the Public IP address under Networking.
+</p>
+<br />
+
+<p>
+<img <img width="891" height="928" alt="image" src="https://github.com/user-attachments/assets/40f1ae53-03fc-4673-a9ae-90322526d4f1" />
+</p>
+<p>
+Open back up Remote Desktop login from the start menu on the bottom left.
+</p>
+<br />
+
+<p>
+<img <img width="405" height="241" alt="image" src="https://github.com/user-attachments/assets/8d6c441a-f326-4376-8d82-ae95424b8e6b" />
+</p>
+<p>
+Click on Show Options to expand the dialog box.
+</p>
+<br />
+
+<p>
+<img <img width="401" height="482" alt="image" src="https://github.com/user-attachments/assets/1b4fd972-2c48-482d-ac38-aff66d909738" />
+</p>
+<p>
+Enter client-1 IP address and login credentials to log into the virtual machine.
+</p>
+<br />
+
+<p>
+<img <img width="866" height="809" alt="image" src="https://github.com/user-attachments/assets/5666ef07-5185-40a5-bcdb-9588e4a8b4f6" />
+</p>
+<p>
+Once logged in search Powershell on the start menu on the bottom left and open Windows Powershell.
+</p>
+<br />
+
+<p>
+<img <img width="858" height="733" alt="image" src="https://github.com/user-attachments/assets/0dc1c9df-2c1c-401c-91cc-b3e7aa727fd1" />
+</p>
+<p>
+In Powershell type the command ping followed by dc-1's private IP address (10.0.0.4 in this case).
+</p>
+<br />
+
