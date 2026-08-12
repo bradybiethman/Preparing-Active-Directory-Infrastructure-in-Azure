@@ -23,6 +23,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Step 1: Sign in to Microsoft Azure
 - Step 2: Setup Domain Controller Virtual Machine in Azure
 - Step 3: Setup Client-1 Virtual Machine
+- Step 4: Run Commands via Windows Powershell to verify proper data transfer
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -166,7 +167,7 @@ Click Create at the bottom once information is validated.
 <img <img width="1146" height="749" alt="image" src="https://github.com/user-attachments/assets/f8dae39c-8dbf-4508-9776-38d5a40440f1" />
 </p>
 <p>
-Select Active-Directory Resource group and name the Virtual machine client-1
+Step 3: Select Active-Directory Resource group and name the Virtual machine client-1
 </p>
 <br />
 
@@ -389,7 +390,7 @@ Enter client-1 IP address and login credentials to log into the virtual machine.
 <img <img width="866" height="809" alt="image" src="https://github.com/user-attachments/assets/5666ef07-5185-40a5-bcdb-9588e4a8b4f6" />
 </p>
 <p>
-Once logged in search Powershell on the start menu on the bottom left and open Windows Powershell.
+Step 4: Once logged in search Powershell on the start menu on the bottom left and open Windows Powershell.
 </p>
 <br />
 
@@ -401,3 +402,34 @@ In Powershell type the command ping followed by dc-1's private IP address (10.0.
 </p>
 <br />
 
+<p>
+<img <img width="856" height="728" alt="image" src="https://github.com/user-attachments/assets/ea1521eb-e784-41de-bcb5-23e0c729b35b" />
+</p>
+<p>
+Observe results of Ping command to ensure it succeeded.
+</p>
+<br />
+
+<p>
+<img <img width="858" height="733" alt="image" src="https://github.com/user-attachments/assets/a9fc1dfe-5fc3-4969-bfe6-c67451a4de5f" />
+</p>
+<p>
+In Powershell run command ipconfig /all and ensure that DNS Servers shows dc-1's private IP address.
+</p>
+<br />
+
+<p>
+<img <img width="2558" height="820" alt="image" src="https://github.com/user-attachments/assets/a601c854-1382-4cf4-aa51-e3fd4cb62707" />
+</p>
+<p>
+Close out of both Remote Desktop connections and navigate back to Azure virtual machines page.
+</p>
+<br />
+
+<p>
+<img <img width="2334" height="602" alt="image" src="https://github.com/user-attachments/assets/24f49679-7f84-4389-8ce8-b31c14a24d99" />
+</p>
+<p>
+Select check box for both virtual machines and click on Stop on the top bar to end operation of the virtual machines.
+</p>
+<br />
