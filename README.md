@@ -80,7 +80,7 @@ Ensure that the Resource Group has been created in Azure. (This may require you 
 <img <img width="2335" height="480" alt="image" src="https://github.com/user-attachments/assets/644d2d15-6dae-4265-a4bd-c29289ef76f8" />
 </p>
 <p>
-Ensure that the Resource Group has been created in Azure. (This may require you to press refresh to make sure it works.) We then navigate to Virtual networks along the left side panel.
+We then navigate to Virtual networks along the left side panel.
 </p>
 <br />
 
@@ -128,17 +128,10 @@ Click Create to make our Virtual Machine.
 <img <img width="789" height="633" alt="image" src="https://github.com/user-attachments/assets/3216bf5c-7423-4f21-b977-13a62efaa616" />
 </p>
 <p>
-Select the Resource group that we have created prior (Active-Directory) and name the Virtual Machine dc-1.
+Select the Resource group that we have created prior (Active-Directory), name the Virtual Machine dc-1, and Ensure that it is in the same Region as the VNet created prior.
 </p>
 <br />
 
-<p>
-<img <img width="789" height="633" alt="image" src="https://github.com/user-attachments/assets/3216bf5c-7423-4f21-b977-13a62efaa616" />
-</p>
-<p>
-Select the Resource group that we have created prior (Active-Directory) and name the Virtual Machine dc-1. Ensure that it is in the same Region as the virtual network.
-</p>
-<br />
 
 <p>
 <img <img width="855" height="686" alt="image" src="https://github.com/user-attachments/assets/26d00d76-3406-4517-a2f8-6e1b30a34cb8" />
